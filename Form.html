@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Register Form</title>
+    </head>
+    <body>
+        <form>
+            <h3>Naukri Website</h3><br>
+            <label>First Name</label>
+            <input type="text" name="firstName" placeholder="enter the firstname" required minlength="3" maxlength="10" autocomplete="off">
+            <label>Last Name</label>
+            <input type="text" name="lastName" placeholder="enter the lastname" required minlength="3" maxlength="10"><br><br autocomplete="on">
+            <label>E-mail</label>
+            <input type="email" name="email" required><br><br>
+            <label>Phone No</label>
+            <input type="tel" name="phoneNo" required><br><br>
+            <label>Date of birth</label>
+            <input type="date"><br><br>
+            <label>Age</label>
+            <input type="number" name="age" min="18" max="22"><br><br>
+            <label>Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender" disabled>Other<br><br>
+            <label>Course</label>
+            <input type="checkbox" name="Java" checked>Java
+            <input type="checkbox" name="HTML">HTML
+            <input type="checkbox" name="CSS">CSS
+            <input type="checkbox" name="JavaScript">JavaScript
+            <input type="checkbox" name="MySQL">MySQL<br><br>
+            <label>Address</label>
+            <textarea rows="3" cols="30" required></textarea><br><br>
+            <label>City</label>
+            <select><option>Bangalore</option><option>Mysore</option><option>Tumkur</option></select><br><br>
+            <label>Select Files/Resume</label>
+            <input type="file" name="upload file"><br><br>
+            <label>Password</label>
+            <input type="password" required min="8" max="15">
+            <label>Confirm-Password</label>
+            <input type="password" required min="8" max="15"><br><br>
+            <input type="submit" name="Submit" style="background-color: lightgreen;">
+            <input type="reset" name="Reset" style="background-color: coral;">
+            <marquee>Successfully Created</marquee>
+        </form>
+    </body>
+</html>
+<!---html5 validation--->
+<!--how to turn off autosuggestion in html5-->

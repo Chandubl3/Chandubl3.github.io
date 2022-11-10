@@ -1,0 +1,28 @@
+.box{
+    /*padding  : 30px;
+    padding-top : 30px;
+    padding-right : 30px;
+    padding-left : 30px; */
+    padding : 10px 20px 30px 40px;
+    border : 2px solid red;    /* 2px is thickness of the border */
+    border : 2px dotted red;
+    margin : 20px;
+    background-color: aqua;
+}
+
+.rect{
+    border : 2px solid green;
+    height : 100px;
+    width : 200px;
+
+}
+
+.rect1{
+    border : 2px solid red;
+    height : 50px;
+    width : 100px;
+}
+
+.prgh{
+    background-color: blueviolet;
+}
